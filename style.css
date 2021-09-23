@@ -1,0 +1,140 @@
+body,
+input {
+  color: #333; /*-webkit-font-smoothing:antialiased;*/
+  font-size: 17px;
+  line-height: 1.75;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  margin: 2em;
+  background-color: rgb(209, 209, 209);
+}
+/* Families */
+body {
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif; /* Weights from Typekit: 300, 400 */
+  line-height: 1.5;
+  margin: 10px;
+}
+
+h2,
+h3 {
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif; /* Weights from Typekit: 200, 900 */
+  border-bottom: solid black 2px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+h1 {
+  color: rgb(0, 0, 0);
+  padding: 0.5em 0 0.25em 0;
+  line-height: 1em;
+}
+h2 {
+  color: black;
+  font-weight: 250; /* Heavy */
+  letter-spacing: 1px;
+  padding: 0.5em 0 0.25em 0;
+  line-height: 1em;
+}
+h3 {
+  font-weight: 200; /* Thin */
+  letter-spacing: 1px;
+  line-height: 1em;
+  padding: 0.5em 0 0.25em 0;
+  color: black;
+  border-bottom: solid black 2px;
+}
+h4,
+h5 {
+  font-weight: 200; /* Thin */
+  letter-spacing: 1px;
+  line-height: 1em;
+  padding: 0.5em 0 0.25em 0;
+  color: black;
+  border-bottom: solid black 2px;
+}
+p,
+li {
+  font-size: 1em;
+  font-weight: 350; /* Regular */
+  line-height: 2em;
+}
+
+a {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  color: #333;
+  text-decoration: none;
+  font-weight: 225;
+  -moz-transition: border-color 0.2s ease-in-out;
+  -ms-transition: border-color 0.2s ease-in-out;
+  -o-transition: border-color 0.2s ease-in-out;
+  -webkit-transition: border-color 0.2s ease-in-out;
+  transition: border-color 0.2s ease-in-out;
+}
+a:hover {
+  border-color: #ea2e49;
+}
+
+footer > a {
+  width: 15px;
+  height: 15px;
+  border: 1px solid;
+  margin: 5px;
+  padding: 10px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: baseline;
+  background-color: rgb(218, 218, 218);
+  width: 100%;
+}
+
+.navbar > ul {
+  /* Remove the default styles */
+  margin: 0;
+  list-style-type: none;
+  /* Arrange all of the links in a row */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+.navbar a {
+  color: rgb(90, 70, 202);
+  text-decoration: none;
+  display: inline-block;
+  margin: 1em;
+}
+
+button {
+  --bg-color: rgb(182, 182, 182);
+  --fg-color: rgb(90, 70, 202);
+
+  padding: 0.5rem 0.75rem;
+  background-color: var(--bg-color);
+  border: 1px solid;
+  color: var(--fg-color);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  transition: 300ms;
+}
+
+button:hover {
+  background-color: var(--fg-color);
+  color: var(--bg-color);
+}
+
+#text {
+  background-color: rgb(182, 182, 182);
+  border: rgb(90, 70, 202) solid 2px;
+  border-radius: 0.5rem;
+  color: white;
+}
