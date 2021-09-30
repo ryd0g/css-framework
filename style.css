@@ -153,7 +153,7 @@ button:hover {
 .card {
   display: flex;
   flex-direction: column;
-  border: 1px solid;
+  border: 3px solid;
   width: 300px;
   margin: 25px;
 }
@@ -161,7 +161,7 @@ button:hover {
   margin: 0;
   text-align: center;
   padding: 1em;
-  background-color: #000;
+  background-color: rgb(90, 70, 202);
   color: #fff;
 }
 .card ul {
@@ -169,16 +169,13 @@ button:hover {
   margin: 0;
   padding: 0;
 }
-.card nav > ul > li {
+.card a {
   text-decoration: none;
   padding: 0.65em;
   display: block;
 }
 .card nav > ul > li {
   padding: 0;
-}
-.card nav > ul > li {
-  margin: 10px;
 }
 
 .text-success {
