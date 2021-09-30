@@ -31,17 +31,31 @@
       Here is an example of the typograghy.
       <b>This is bold text.</b>
       <i>This is italic text.</i>
+      <blockquote>This is a blockquote.</blockquote>
+      <small>This is small text.</small>
     </p>
     <!--input fields & buttons-->
     <div class="inputs">
-      <h2>Here are form inputs and buttons</h2>
+      <h2>Form inputs and buttons</h2>
       <form>
-        <input type="text" id="text" placeholder="Here is a text input" />
+        <fieldset>
+        <legend>My Form:</legend>
+        <input type="text" id="text" placeholder="Here is a text input" /><br>
+        <input type="radio" id='radio' value='Radio' />
+        <label for='radio'>Radio</label><br>
+        <input type='checkbox' id='checkbox' />
+        <label for='checkbox'>Checkbox</label><br>
+        <select id='text'>
+          <option value='option1'>Option 1</option>
+          <option value='option2'>Option 2</option>
+          <option value='option3'>Option 3</option>
+        </select><br>
         <button>button</button>
+        </fieldset>
       </form>
     </div>
     <!--flex card-->
-    <h2>Here is a flexbox card:</h2>
+    <h2>Flexbox card:</h2>
     <div class="card" id="card">
       <h3>Card Goes Here</h3>
       <nav role="navigation">
@@ -59,11 +73,13 @@
       </nav>
     </div>
     <!--text colors-->
-    <h2>Here are the different text colors:</h2>
-    <p class="text-primary">Primary</p>
-    <p class="text-success">Success</p>
-    <p class="text-danger">Danger</p>
-    <p class="text-light">Light</p>
-    <p class="text-dark">Dark</p>
+    <h2>Different text colors:</h2>
+    <div class='text-colors'>
+      <p class="text-primary">Primary</p>
+      <p class="text-success">Success</p>
+      <p class="text-danger">Danger</p>
+      <p class="text-light">Light</p>
+      <p class="text-dark">Dark</p>
+    </div>
   </body>
 </html>
