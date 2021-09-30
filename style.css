@@ -124,6 +124,10 @@ label {
   font-weight: 225;
 }
 
+select {
+  padding: 5px;
+}
+
 button {
   --bg-color: rgb(182, 182, 182);
   --fg-color: rgb(90, 70, 202);
