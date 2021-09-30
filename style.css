@@ -51,7 +51,8 @@ h3 {
   border-bottom: solid black 2px;
 }
 h4,
-h5 {
+h5,
+h6 {
   font-weight: 200; /* Thin */
   letter-spacing: 1px;
   line-height: 1em;
@@ -136,5 +137,53 @@ button:hover {
   background-color: rgb(182, 182, 182);
   border: rgb(90, 70, 202) solid 2px;
   border-radius: 0.5rem;
-  color: white;
+  padding-left: 5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  width: 300px;
+  margin: 25px;
+}
+.card h3 {
+  margin: 0;
+  text-align: center;
+  padding: 1em;
+  background-color: #000;
+  color: #fff;
+}
+.card ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.card nav > ul > li {
+  text-decoration: none;
+  padding: 0.65em;
+  display: block;
+}
+.card nav > ul > li {
+  padding: 0;
+}
+.card nav > ul > li {
+  margin: 10px;
+}
+
+.text-success {
+  color: rgb(67, 153, 67);
+}
+
+.text-danger {
+  font-weight: bold;
+  color: rgb(153, 49, 49);
+}
+
+.text-light {
+  color: rgb(151, 151, 151);
+}
+
+.text-dark {
+  color: black;
 }
